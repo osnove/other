@@ -167,6 +167,7 @@ def complex_plane3(z,axis_type=0,*z_max):
     
     def complex_plane4(z,axis_type=0,label=0,*z_max):
     """Creates complex plane and shows complex numbers as vectors (complexors)
+    written by DK
     
     Parameters
     ----------
@@ -174,11 +175,11 @@ def complex_plane3(z,axis_type=0,*z_max):
         array of complex values to be shown
     axis_type : int 
         three types of shapes of complex plane:
-        0 : symple
+        0 : simple
         1 : with grid
         2 : moved axis to middle 
-	label: bool
-		0: dont print labels
+    label: bool
+		0: don't print labels
 		1: print values 
 		2: print index
     z_max : tuple
